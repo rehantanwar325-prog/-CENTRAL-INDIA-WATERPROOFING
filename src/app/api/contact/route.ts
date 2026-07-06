@@ -11,6 +11,31 @@ export async function POST(request: NextRequest) {
 
     const time = new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })
 
+    // Send WhatsApp message to admin via CallMeBot API
+    const whatsappPhone = process.env.WHATSAPP_PHONE
+    const whatsappApiKey = process.env.WHATSAPP_API_KEY
+
+    if (whatsappPhone && whatsappApiKey && whatsappApiKey !== 'your-api-key-here') {
+      try {
+        const whatsappMessage = `🏠 *New Waterproofing Inquiry*\n\n👤 *Name:* ${name}\n📞 *Phone:* ${phone}\n🔧 *Service:* ${service}\n💬 *Message:* ${message || 'N/A'}\n🕐 *Time:* ${time}`
+
+        const encodedMsg = encodeURIComponent(whatsappMessage)
+        const callMeBotUrl = `https://api.callmebot.com/whatsapp.php?phone=${whatsappPhone}&text=${encodedMsg}&apikey=${whatsappApiKey}`
+
+        const response = await fetch(callMeBotUrl)
+        if (response.ok) {
+          console.log('WhatsApp message sent successfully to admin')
+        } else {
+          console.error('WhatsApp send failed, status:', response.status)
+        }
+      } catch (e) {
+        console.error('WhatsApp send failed (non-blocking):', e)
+      }
+    } else {
+      console.log('WhatsApp not configured. Set WHATSAPP_PHONE and WHATSAPP_API_KEY in .env')
+    }
+
+    // Send email notification (if configured)
     if (process.env.SMTP_EMAIL && process.env.SMTP_PASSWORD && process.env.SMTP_PASSWORD !== 'your-16-digit-app-password-here') {
       try {
         const nodemailer = await import('nodemailer')

@@ -5,38 +5,45 @@ import { CheckCircle, ArrowRight } from 'lucide-react'
 
 const services = [
   {
-    img: 'https://images.unsplash.com/photo-1541888946425-d81bb3c3e7b8?auto=format&fit=crop&w=600&q=80',
+    img: '/images/services/sealroof.png',
     title: 'SEALROOF CETROOF Treatment',
     description: 'Advanced thermal insulation & waterproofing coating system. Provides permanent leak-proof protection with warranty as per material used.',
     features: ['Warranty*', 'Thermal Insulation', 'UV Resistant', 'Eco-Friendly'],
     gradient: 'from-blue-500 to-cyan-500',
   },
   {
-    img: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=600&q=80',
+    img: '/images/services/terrace.png',
     title: 'Roof & Terrace Waterproofing',
     description: 'Complete waterproofing for flat roofs, sloped roofs, and terraces using premium liquid and sheet membranes.',
     features: ['Liquid Membrane', 'Sheet Membrane', 'Polyurethane Coating', 'Crack Bridging'],
     gradient: 'from-emerald-500 to-green-500',
   },
   {
-    img: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80',
-    title: 'Basement & Foundation',
-    description: 'Expert basement waterproofing using crystalline technology and negative/positive side waterproofing systems.',
-    features: ['Crystalline Technology', 'Negative Side System', 'Sump Pump', 'Drainage Systems'],
+    img: '/images/services/spray_coating.png',
+    title: 'Spray Waterproofing Coating',
+    description: 'High-pressure spray-applied waterproofing coating for large roof surfaces. Ensures seamless, uniform coverage with rapid application for industrial and commercial rooftops.',
+    features: ['Seamless Coverage', 'Rapid Application', 'Industrial Grade', 'Long Lasting'],
     gradient: 'from-amber-500 to-orange-500',
   },
   {
-    img: 'https://images.unsplash.com/photo-1624969862644-791f3dc98927?auto=format&fit=crop&w=600&q=80',
-    title: 'Bathroom & Wet Areas',
-    description: 'Complete bathroom waterproofing including shower areas, balconies, and wet rooms with cementitious and liquid systems.',
-    features: ['Cementitious Coating', 'Liquid Membrane', 'Joint Sealing', 'Tile Compatible'],
+    img: '/images/services/roller_coating.png',
+    title: 'Roller Applied Roof Coating',
+    description: 'Professional roller-applied white waterproofing coating for flat rooftops. Provides excellent heat reflection, UV protection, and long-lasting leak-proof surface finish.',
+    features: ['Heat Reflective', 'UV Protection', 'Leak-Proof Finish', 'Professional Application'],
     gradient: 'from-purple-500 to-violet-500',
   },
   {
-    img: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=600&q=80',
-    title: 'Expansion Joint Treatment',
-    description: 'Professional waterproofing using flexible sealants, waterbars, and compression seals for structural movement.',
-    features: ['PU Sealants', 'Waterbars', 'Compression Seals', 'Movement Ready'],
+    img: '/images/services/crack_repair.png',
+    title: 'Roof Crack Repair Treatment',
+    description: 'Expert crack filling and sealing on concrete rooftops using polymer-modified cement and waterproof sealants. Prevents water seepage through hairline and structural cracks.',
+    features: ['Crack Filling', 'Polymer Modified', 'Seepage Prevention', 'Structural Repair'],
+    gradient: 'from-teal-500 to-emerald-500',
+  },
+  {
+    img: '/images/services/membrane_sheet.png',
+    title: 'Membrane Sheet Waterproofing',
+    description: 'Installation of APP/SBS bituminous waterproofing membrane sheets on flat roofs using heat-welding technology. Provides heavy-duty, long-term protection against water ingress.',
+    features: ['Bituminous Membrane', 'Heat Welded', 'Heavy Duty', 'Long-Term Protection'],
     gradient: 'from-rose-500 to-pink-500',
   },
 ]
@@ -52,13 +59,13 @@ export default function Services() {
       
       <div className="container-custom relative">
         <div className="text-center max-w-3xl mx-auto mb-16 lg:mb-20">
-          <span className="inline-block px-4 py-1.5 rounded-full bg-blue-100 text-blue-700 text-sm font-semibold mb-6">Our Expertise</span>
+          <span className="inline-block px-4 py-1.5 rounded-full bg-blue-100 text-blue-700 text-sm font-semibold mb-6">Our Roof Waterproofing Services</span>
           <h2 id="services-heading" className="section-title">
-            Premium <span className="gradient-text">Waterproofing</span> Services
+            Professional <span className="gradient-text">Roof Waterproofing</span> in Nagpur
           </h2>
           <p className="section-subtitle">
-            Comprehensive waterproofing solutions tailored for Central India&apos;s climate. 
-            From residential homes to large commercial complexes, we provide guaranteed protection.
+            Best roof waterproofing services in Nagpur, Akola &amp; Chandrapur, Maharashtra. 
+            From residential homes to commercial &amp; industrial buildings, we provide guaranteed leak-proof protection with warranty.
           </p>
         </div>
 
@@ -82,7 +89,10 @@ export default function Services() {
                       target.style.display = 'none'
                       const parent = target.parentElement
                       if (parent) {
-                        parent.classList.add('flex', 'items-center', 'justify-center', `bg-gradient-to-br`, service.gradient)
+                        parent.classList.add('flex', 'items-center', 'justify-center', 'bg-gradient-to-br')
+                        if (service.gradient) {
+                          parent.classList.add(...service.gradient.split(' ').filter(Boolean))
+                        }
                         parent.innerHTML = `<div class="text-white/80 text-center px-4"><svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 mx-auto mb-2 opacity-60" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg><p class="text-xs font-medium opacity-80">Waterproofing</p></div>`
                       }
                     }}

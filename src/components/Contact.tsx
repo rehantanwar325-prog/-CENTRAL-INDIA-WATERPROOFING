@@ -31,9 +31,11 @@ export default function Contact() {
 
     setStatus('submitting')
 
-    const msg = `Hi%2C%20I%20am%20${encodeURIComponent(formData.name)}.%0A%0A*Service%20Required:*%20${encodeURIComponent(formData.service)}%0A*Phone:*%20${encodeURIComponent(formData.phone)}%0A*Message:*%20${encodeURIComponent(formData.message || 'N/A')}`
-    window.open(`https://wa.me/918975138745?text=${msg}`, '_blank')
+    // Build WhatsApp message
+    const whatsappMsg = `Hi, I am *${formData.name}*.\n\n*Service Required:* ${formData.service}\n*Phone:* ${formData.phone}\n*Message:* ${formData.message || 'N/A'}`
+    const whatsappUrl = `https://wa.me/918975138745?text=${encodeURIComponent(whatsappMsg)}`
 
+    // Also send to API for logging
     try {
       await fetch('/api/contact', {
         method: 'POST',
@@ -44,7 +46,9 @@ export default function Contact() {
 
     setStatus('success')
     setFormData({ name: '', phone: '', service: '', message: '' })
-    setTimeout(() => setStatus('idle'), 5000)
+
+    // Redirect to WhatsApp (avoids popup blocker)
+    window.location.href = whatsappUrl
   }
 
   const contactInfo = [
@@ -57,9 +61,10 @@ export default function Contact() {
   const services = [
     'SEALROOF CETROOF Treatment',
     'Roof & Terrace Waterproofing',
-    'Basement & Foundation Waterproofing',
-    'Bathroom & Wet Area Waterproofing',
-    'Expansion Joint Treatment',
+    'Spray Waterproofing Coating',
+    'Roller Applied Roof Coating',
+    'Roof Crack Repair Treatment',
+    'Membrane Sheet Waterproofing',
     'Other / General Inquiry',
   ]
 
@@ -74,12 +79,12 @@ export default function Contact() {
       
       <div className="container-custom relative">
         <div className="text-center max-w-3xl mx-auto mb-16 lg:mb-20">
-          <span className="inline-block px-4 py-1.5 rounded-full bg-blue-100 text-blue-700 text-sm font-semibold mb-6">Get In Touch</span>
+          <span className="inline-block px-4 py-1.5 rounded-full bg-blue-100 text-blue-700 text-sm font-semibold mb-6">Contact Best Waterproofing Company</span>
           <h2 id="contact-heading" className="section-title">
-            Get Your Free <span className="gradient-text">Inspection</span>
+            Get Your Free Roof <span className="gradient-text">Inspection</span> Today
           </h2>
           <p className="section-subtitle">
-            Have a leak or planning waterproofing? Contact Central India&apos;s most trusted experts. 
+            Have a roof leak or planning waterproofing in Nagpur, Akola or Chandrapur? Contact Maharashtra&apos;s most trusted roof waterproofing experts. 
             We offer free site inspections and transparent quotations.
           </p>
         </div>

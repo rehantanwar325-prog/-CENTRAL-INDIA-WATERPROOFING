@@ -15,10 +15,10 @@ export default function Footer() {
   const services = [
     'SEALROOF CETROOF Treatment',
     'Roof & Terrace Waterproofing',
-    'Basement Waterproofing',
-    'Bathroom Waterproofing',
-    'Wall Seepage Treatment',
-    'Expansion Joint Treatment',
+    'Spray Waterproofing Coating',
+    'Roller Applied Roof Coating',
+    'Roof Crack Repair Treatment',
+    'Membrane Sheet Waterproofing',
   ]
 
   const locations = [
@@ -50,8 +50,9 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed text-sm">
-              Central India&apos;s most trusted waterproofing experts with 25+ years of experience. 
-              Specialized in SEALROOF CETROOF Treatment with warranty as per material used.
+              Maharashtra&apos;s #1 rated roof waterproofing company with 25+ years of excellence. 
+              Best waterproofing services in Nagpur, Akola &amp; Chandrapur. 
+              Specialized in SEALROOF CETROOF Treatment, terrace waterproofing, spray coating &amp; membrane sheet waterproofing with warranty.
             </p>
             <div className="space-y-3">
               <a href="tel:+918975138745" className="flex items-center gap-3 text-gray-300 hover:text-emerald-400 transition-colors group">
