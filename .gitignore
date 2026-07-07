@@ -44,3 +44,8 @@ next-env.d.ts
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+# Cloudflare Wrangler and OpenNext
+.open-next
+.wrangler
+.dev.vars
