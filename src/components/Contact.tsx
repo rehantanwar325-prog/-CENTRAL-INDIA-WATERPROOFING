@@ -55,7 +55,7 @@ export default function Contact() {
     { icon: Phone, label: 'Call Us', value: '+91 89751 38745', href: 'tel:+918975138745', gradient: 'from-blue-500 to-cyan-500' },
     { icon: Mail, label: 'Email', value: 'yusuftagala1983@gmail.com', href: 'mailto:yusuftagala1983@gmail.com', gradient: 'from-purple-500 to-violet-500' },
     { icon: MapPin, label: 'Head Office', value: 'Babu Manzil, Plot No. 56, Lahanji Layout, Old Ring Road Mankapur, Opp. Maqbul Masjid, Nagpur - 440030', href: '#', gradient: 'from-emerald-500 to-green-500' },
-    { icon: Clock, label: 'Working Hours', value: 'Mon - Sat: 9:00 AM - 7:00 PM\nSunday: 10:00 AM - 4:00 PM', href: '#', gradient: 'from-amber-500 to-orange-500' },
+    { icon: Clock, label: 'Working Hours', value: 'Mon - Sat: 9:00 AM - 6:00 PM\nSunday: Closed', href: '#', gradient: 'from-amber-500 to-orange-500' },
   ]
 
   const services = [
