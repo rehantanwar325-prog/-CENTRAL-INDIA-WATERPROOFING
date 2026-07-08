@@ -19,10 +19,10 @@ const services = [
     gradient: 'from-emerald-500 to-green-500',
   },
   {
-    img: '/images/services/bathroom.png',
+    img: '/images/services/bathroom.jpg',
     title: 'Bathroom & Wet Area Waterproofing',
-    description: 'Professional waterproofing for bathrooms, toilets, kitchens, and wet areas. Prevents internal water seepage, dampness, and mold growth in walls and floor tiles.',
-    features: ['Seepage Prevention', 'Mold Resistance', 'Seamless Barrier', 'Tile Friendly'],
+    description: 'Professional bathroom waterproofing, pipe line leakage sealing, and brick bat coba treatment. Prevents water seepage and dampness in toilets and wet areas.',
+    features: ['Pipe Joint Sealing', 'Brick Bat Coba', 'Leakage Prevention', 'Wet Area Treatment'],
     gradient: 'from-amber-500 to-orange-500',
   },
   {
