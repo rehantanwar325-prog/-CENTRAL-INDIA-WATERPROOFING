@@ -12,6 +12,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
       },
     ],
-    sitemap: 'https://centralindiawaterproofing.com/sitemap.xml',
+    sitemap: 'https://ciwagency.in/sitemap.xml',
   }
 }

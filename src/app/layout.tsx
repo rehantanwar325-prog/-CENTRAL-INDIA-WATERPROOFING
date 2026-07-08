@@ -46,12 +46,12 @@ export const metadata: Metadata = {
     'best waterproofing in Vidarbha',
     'Vidarbha waterproofing agency',
   ],
-  authors: [{ name: 'Central India Waterproofing', url: 'https://centralindiawaterproofing.com' }],
+  authors: [{ name: 'Central India Waterproofing', url: 'https://ciwagency.in' }],
   creator: 'Central India Waterproofing',
   publisher: 'Central India Waterproofing',
   category: 'Waterproofing Services',
   alternates: {
-    canonical: 'https://centralindiawaterproofing.com',
+    canonical: 'https://ciwagency.in',
   },
   openGraph: {
     title: 'Best Waterproofing Agency in Nagpur, Akola & Chandrapur | Central India Waterproofing',
@@ -59,10 +59,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'Central India Waterproofing',
-    url: 'https://centralindiawaterproofing.com',
+    url: 'https://ciwagency.in',
     images: [
       {
-        url: 'https://centralindiawaterproofing.com/images/services/sealroof.png',
+        url: 'https://ciwagency.in/images/services/sealroof.png',
         width: 800,
         height: 600,
         alt: 'Central India Waterproofing SEALROOF treatment',
@@ -73,7 +73,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Best Waterproofing Agency in Nagpur, India | Central India Waterproofing',
     description: 'Nagpur\'s #1 waterproofing agency. We offer expert terrace, bathroom & basement waterproofing in Nagpur, Akola & Chandrapur with warranty. Call +91 89751 38745.',
-    images: ['https://centralindiawaterproofing.com/images/services/sealroof.png'],
+    images: ['https://ciwagency.in/images/services/sealroof.png'],
   },
   robots: {
     index: true,
@@ -116,16 +116,16 @@ function JsonLd() {
     '@graph': [
       {
         '@type': 'LocalBusiness',
-        '@id': 'https://centralindiawaterproofing.com/#organization',
+        '@id': 'https://ciwagency.in/#organization',
         name: 'Central India Waterproofing',
         alternateName: 'Central India Waterproofing Agency',
         description: 'India\'s #1 rated waterproofing agency. Expert SEALROOF CETROOF treatment, terrace waterproofing, bathroom & basement waterproofing. Serving Nagpur, Akola & Chandrapur with 25+ years experience.',
-        url: 'https://centralindiawaterproofing.com',
+        url: 'https://ciwagency.in',
         telephone: '+918975138745',
         email: 'yusuftagala1983@gmail.com',
         foundingDate: '2000',
         priceRange: '₹₹',
-        image: 'https://centralindiawaterproofing.com/images/services/sealroof.png',
+        image: 'https://ciwagency.in/images/services/sealroof.png',
         address: {
           '@type': 'PostalAddress',
           streetAddress: 'Babu Manzil, Plot No. 56 Lahanji Layout, Old Ring Road Mankapur, opp. Maqbul Masjid',
@@ -188,7 +188,7 @@ function JsonLd() {
           addressRegion: 'Maharashtra',
           addressCountry: 'IN',
         },
-        parentOrganization: { '@id': 'https://centralindiawaterproofing.com/#organization' },
+        parentOrganization: { '@id': 'https://ciwagency.in/#organization' },
       },
       // Branch - Chandrapur
       {
@@ -204,16 +204,16 @@ function JsonLd() {
           addressRegion: 'Maharashtra',
           addressCountry: 'IN',
         },
-        parentOrganization: { '@id': 'https://centralindiawaterproofing.com/#organization' },
+        parentOrganization: { '@id': 'https://ciwagency.in/#organization' },
       },
       // Website
       {
         '@type': 'WebSite',
         name: 'Central India Waterproofing',
-        url: 'https://centralindiawaterproofing.com',
+        url: 'https://ciwagency.in',
         potentialAction: {
           '@type': 'SearchAction',
-          target: 'https://centralindiawaterproofing.com/?q={search_term_string}',
+          target: 'https://ciwagency.in/?q={search_term_string}',
           'query-input': 'required name=search_term_string',
         },
       },
@@ -221,10 +221,10 @@ function JsonLd() {
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://centralindiawaterproofing.com' },
-          { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://centralindiawaterproofing.com/#services' },
-          { '@type': 'ListItem', position: 3, name: 'Locations', item: 'https://centralindiawaterproofing.com/#locations' },
-          { '@type': 'ListItem', position: 4, name: 'Contact', item: 'https://centralindiawaterproofing.com/#contact' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://ciwagency.in' },
+          { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://ciwagency.in/#services' },
+          { '@type': 'ListItem', position: 3, name: 'Locations', item: 'https://ciwagency.in/#locations' },
+          { '@type': 'ListItem', position: 4, name: 'Contact', item: 'https://ciwagency.in/#contact' },
         ],
       },
       // FAQPage for rich snippets
@@ -279,7 +279,7 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="canonical" href="https://centralindiawaterproofing.com" />
+        <link rel="canonical" href="https://ciwagency.in" />
         <JsonLd />
       </head>
       <body className="min-h-screen bg-white font-sans antialiased">
