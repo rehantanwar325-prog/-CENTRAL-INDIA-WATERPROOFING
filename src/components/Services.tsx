@@ -33,7 +33,7 @@ const services = [
     gradient: 'from-purple-500 to-violet-500',
   },
   {
-    img: '/images/services/wall_seepage.png',
+    img: '/images/services/wall_seepage.jpg',
     title: 'Wall Seepage & Dampness Treatment',
     description: 'Professional treatment for interior and exterior wall seepage, dampness, and paint peeling. Prevents moisture ingress and structural damage in residential and commercial buildings.',
     features: ['Seepage Control', 'Dampness Treatment', 'Anti-Fungal Barrier', 'Paint Protection'],
