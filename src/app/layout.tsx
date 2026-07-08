@@ -9,11 +9,11 @@ export const metadata: Metadata = {
     default: 'Best Waterproofing Agency in Nagpur, India | Central India Waterproofing',
     template: '%s | Central India Waterproofing',
   },
-  description: 'Central India Waterproofing is India\'s #1 rated roof waterproofing agency serving Nagpur, Akola & Chandrapur. Expert SEALROOF CETROOF treatment, terrace waterproofing, spray coating & membrane sheet waterproofing with warranty. Call +91 89751 38745 for free inspection.',
+  description: 'Central India Waterproofing is India\'s #1 rated waterproofing agency serving Nagpur, Akola & Chandrapur. Expert SEALROOF CETROOF treatment, terrace waterproofing, spray coating & membrane sheet waterproofing with warranty. Call +91 89751 38745 for free inspection.',
   keywords: [
     'waterproofing agency Nagpur',
     'best waterproofing agency India',
-    'roof waterproofing Nagpur',
+    'waterproofing Nagpur',
     'terrace waterproofing Nagpur',
     'waterproofing services Akola',
     'waterproofing services Chandrapur',
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     'waterproofing contractor Nagpur',
     'waterproofing contractor Akola',
     'waterproofing contractor Chandrapur',
-    'roof waterproofing India',
-    'best roof waterproofing agency India',
+    'waterproofing India',
+    'best waterproofing agency India',
     'waterproofing agency Central India',
     'bathroom waterproofing services',
     'membrane sheet waterproofing',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     'waterproofing Nagpur price',
     'terrace waterproofing cost Nagpur',
     'commercial waterproofing Nagpur',
-    'industrial roof waterproofing India',
+    'industrial waterproofing India',
     'building waterproofing Nagpur',
     'flat roof waterproofing Nagpur',
     'waterproofing expert Nagpur',
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Best Waterproofing Agency in Nagpur, Akola & Chandrapur | Central India Waterproofing',
-    description: 'India\'s #1 rated roof waterproofing experts. SEALROOF CETROOF treatment, terrace waterproofing, spray coating with warranty. Serving Nagpur, Akola & Chandrapur. Free inspection. Call +91 89751 38745.',
+    description: 'India\'s #1 rated waterproofing experts. SEALROOF CETROOF treatment, terrace waterproofing, spray coating with warranty. Serving Nagpur, Akola & Chandrapur. Free inspection. Call +91 89751 38745.',
     type: 'website',
     locale: 'en_IN',
     siteName: 'Central India Waterproofing',
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Best Waterproofing Agency in Nagpur, India | Central India Waterproofing',
-    description: 'India\'s #1 rated roof waterproofing experts. SEALROOF CETROOF treatment, terrace waterproofing with warranty. Nagpur, Akola & Chandrapur. Call +91 89751 38745.',
+    description: 'India\'s #1 rated waterproofing experts. SEALROOF CETROOF treatment, terrace waterproofing with warranty. Nagpur, Akola & Chandrapur. Call +91 89751 38745.',
     images: ['https://centralindiawaterproofing.com/images/services/sealroof.png'],
   },
   robots: {
@@ -119,7 +119,7 @@ function JsonLd() {
         '@id': 'https://centralindiawaterproofing.com/#organization',
         name: 'Central India Waterproofing',
         alternateName: 'Central India Waterproofing Agency',
-        description: 'India\'s #1 rated roof waterproofing agency. Expert SEALROOF CETROOF treatment, terrace waterproofing, spray coating & membrane sheet waterproofing. Serving Nagpur, Akola & Chandrapur with 25+ years experience.',
+        description: 'India\'s #1 rated waterproofing agency. Expert SEALROOF CETROOF treatment, terrace waterproofing, spray coating & membrane sheet waterproofing. Serving Nagpur, Akola & Chandrapur with 25+ years experience.',
         url: 'https://centralindiawaterproofing.com',
         telephone: '+918975138745',
         email: 'yusuftagala1983@gmail.com',
@@ -164,7 +164,7 @@ function JsonLd() {
         },
         hasOfferCatalog: {
           '@type': 'OfferCatalog',
-          name: 'Roof Waterproofing Services',
+          name: 'Waterproofing Services',
           itemListElement: [
             { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'SEALROOF CETROOF Treatment', description: 'Advanced thermal insulation & waterproofing coating system with warranty.' } },
             { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Roof & Terrace Waterproofing', description: 'Complete waterproofing for flat roofs, sloped roofs, and terraces.' } },
@@ -180,7 +180,7 @@ function JsonLd() {
       {
         '@type': 'LocalBusiness',
         name: 'Central India Waterproofing - Akola Branch',
-        description: 'Best waterproofing agency in Akola, India. Roof waterproofing, SEALROOF CETROOF treatment & terrace waterproofing services.',
+        description: 'Best waterproofing agency in Akola, India. General waterproofing, SEALROOF CETROOF treatment & terrace waterproofing services.',
         telephone: '+919075298447',
         address: {
           '@type': 'PostalAddress',
@@ -195,7 +195,7 @@ function JsonLd() {
       {
         '@type': 'LocalBusiness',
         name: 'Central India Waterproofing - Chandrapur Branch',
-        description: 'Best waterproofing agency in Chandrapur, India. Roof waterproofing, SEALROOF CETROOF treatment & terrace waterproofing services.',
+        description: 'Best waterproofing agency in Chandrapur, India. General waterproofing, SEALROOF CETROOF treatment & terrace waterproofing services.',
         telephone: '+919421717595',
         address: {
           '@type': 'PostalAddress',
@@ -235,7 +235,7 @@ function JsonLd() {
           {
             '@type': 'Question',
             name: 'What is the best waterproofing agency in Nagpur?',
-            acceptedAnswer: { '@type': 'Answer', text: 'Central India Waterproofing is rated the best waterproofing agency in Nagpur with 25+ years of experience, 5000+ satisfied clients, and a 4.9/5 rating. We specialize in SEALROOF CETROOF treatment and roof waterproofing.' },
+            acceptedAnswer: { '@type': 'Answer', text: 'Central India Waterproofing is rated the best waterproofing agency in Nagpur with 25+ years of experience, 5000+ satisfied clients, and a 4.9/5 rating. We specialize in SEALROOF CETROOF treatment and general waterproofing.' },
           },
           {
             '@type': 'Question',
@@ -244,13 +244,13 @@ function JsonLd() {
           },
           {
             '@type': 'Question',
-            name: 'How much does roof waterproofing cost in Nagpur?',
-            acceptedAnswer: { '@type': 'Answer', text: 'Roof waterproofing cost in Nagpur depends on the area size, type of treatment, and material used. Contact Central India Waterproofing at +91 89751 38745 for a free inspection and transparent quotation.' },
+            name: 'How much does waterproofing cost in Nagpur?',
+            acceptedAnswer: { '@type': 'Answer', text: 'Waterproofing cost in Nagpur depends on the area size, type of treatment, and material used. Contact Central India Waterproofing at +91 89751 38745 for a free inspection and transparent quotation.' },
           },
           {
             '@type': 'Question',
             name: 'Do you provide waterproofing services in Akola and Chandrapur?',
-            acceptedAnswer: { '@type': 'Answer', text: 'Yes, Central India Waterproofing has branch offices in both Akola and Chandrapur. We provide all our roof waterproofing services including SEALROOF CETROOF treatment in these cities.' },
+            acceptedAnswer: { '@type': 'Answer', text: 'Yes, Central India Waterproofing has branch offices in both Akola and Chandrapur. We provide all our waterproofing services including SEALROOF CETROOF treatment in these cities.' },
           },
           {
             '@type': 'Question',

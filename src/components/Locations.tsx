@@ -51,7 +51,7 @@ export default function Locations() {
             Our Offices in <span className="gradient-text">Nagpur, Akola &amp; Chandrapur</span>
           </h2>
           <p className="section-subtitle">
-            Head office in Nagpur with branches in Akola and Chandrapur. Best waterproofing agency across Vidarbha, India. Visit us or call for a free roof inspection.
+            Head office in Nagpur with branches in Akola and Chandrapur. Best waterproofing agency across Vidarbha, India. Visit us or call for a free inspection.
           </p>
         </div>
 

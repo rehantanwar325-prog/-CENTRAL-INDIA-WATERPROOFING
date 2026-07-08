@@ -59,12 +59,12 @@ export default function Services() {
       
       <div className="container-custom relative">
         <div className="text-center max-w-3xl mx-auto mb-16 lg:mb-20">
-          <span className="inline-block px-4 py-1.5 rounded-full bg-blue-100 text-blue-700 text-sm font-semibold mb-6">Our Roof Waterproofing Services</span>
+          <span className="inline-block px-4 py-1.5 rounded-full bg-blue-100 text-blue-700 text-sm font-semibold mb-6">Our Waterproofing Services</span>
           <h2 id="services-heading" className="section-title">
-            Professional <span className="gradient-text">Roof Waterproofing</span> in Nagpur
+            Professional <span className="gradient-text">Waterproofing Services</span> in Nagpur
           </h2>
           <p className="section-subtitle">
-            Best roof waterproofing services in Nagpur, Akola &amp; Chandrapur, India. 
+            Best waterproofing services in Nagpur, Akola &amp; Chandrapur, India. 
             From residential homes to commercial &amp; industrial buildings, we provide guaranteed leak-proof protection with warranty.
           </p>
         </div>

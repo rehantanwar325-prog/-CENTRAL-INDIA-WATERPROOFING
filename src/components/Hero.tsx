@@ -49,7 +49,7 @@ export default function Hero() {
             className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight mb-6 animate-fade-in-up"
             style={{ animationDelay: '100ms' }}
           >
-            Best Roof Waterproofing
+            Best Waterproofing
             <br />
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-cyan-300 to-emerald-300">
               Agency in India
