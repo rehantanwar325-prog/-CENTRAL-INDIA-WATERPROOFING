@@ -67,7 +67,7 @@ export default function Locations() {
                 <div className="relative -mx-6 -mt-6 sm:-mx-8 sm:-mt-8 mb-5 overflow-hidden rounded-t-2xl h-36">
                   <img
                     src={location.img}
-                    alt={location.city}
+                    alt={`Waterproofing Office in ${location.city}, Maharashtra - Central India Waterproofing`}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                     onError={(e) => {
                       const target = e.currentTarget

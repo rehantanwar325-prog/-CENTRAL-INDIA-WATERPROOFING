@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     default: 'Best Waterproofing Agency in Nagpur, India | Central India Waterproofing',
     template: '%s | Central India Waterproofing',
   },
-  description: 'Central India Waterproofing is India\'s #1 rated waterproofing agency serving Nagpur, Akola & Chandrapur. Expert SEALROOF CETROOF treatment, terrace waterproofing, bathroom & basement waterproofing with warranty. Call +91 89751 38745 for free inspection.',
+  description: 'Nagpur\'s #1 waterproofing agency. We offer expert terrace, bathroom & basement waterproofing in Nagpur, Akola & Chandrapur with warranty. Call +91 89751 38745.',
   keywords: [
     'waterproofing agency Nagpur',
     'best waterproofing agency India',
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Best Waterproofing Agency in Nagpur, Akola & Chandrapur | Central India Waterproofing',
-    description: 'India\'s #1 rated waterproofing experts. SEALROOF CETROOF treatment, terrace waterproofing, spray coating with warranty. Serving Nagpur, Akola & Chandrapur. Free inspection. Call +91 89751 38745.',
+    description: 'Nagpur\'s #1 waterproofing agency. We offer expert terrace, bathroom & basement waterproofing in Nagpur, Akola & Chandrapur with warranty. Call +91 89751 38745.',
     type: 'website',
     locale: 'en_IN',
     siteName: 'Central India Waterproofing',
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Best Waterproofing Agency in Nagpur, India | Central India Waterproofing',
-    description: 'India\'s #1 rated waterproofing experts. SEALROOF CETROOF treatment, terrace waterproofing with warranty. Nagpur, Akola & Chandrapur. Call +91 89751 38745.',
+    description: 'Nagpur\'s #1 waterproofing agency. We offer expert terrace, bathroom & basement waterproofing in Nagpur, Akola & Chandrapur with warranty. Call +91 89751 38745.',
     images: ['https://centralindiawaterproofing.com/images/services/sealroof.png'],
   },
   robots: {

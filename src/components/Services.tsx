@@ -82,7 +82,7 @@ export default function Services() {
                 <div className="relative -mx-6 -mt-6 sm:-mx-8 sm:-mt-8 mb-6 overflow-hidden rounded-t-2xl h-44">
                   <img
                     src={service.img}
-                    alt={service.title}
+                    alt={`${service.title} Nagpur - Central India Waterproofing`}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                     onError={(e) => {
                       const target = e.currentTarget
