@@ -50,7 +50,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed text-sm">
-              Maharashtra&apos;s #1 rated roof waterproofing company with 25+ years of excellence. 
+              India&apos;s #1 rated roof waterproofing agency with 25+ years of excellence. 
               Best waterproofing services in Nagpur, Akola &amp; Chandrapur. 
               Specialized in SEALROOF CETROOF Treatment, terrace waterproofing, spray coating &amp; membrane sheet waterproofing with warranty.
             </p>

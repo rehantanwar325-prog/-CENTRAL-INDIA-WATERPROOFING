@@ -52,12 +52,12 @@ export default function Hero() {
             Best Roof Waterproofing
             <br />
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-cyan-300 to-emerald-300">
-              Company in Maharashtra
+              Agency in India
             </span>
           </h1>
 
           <p className="text-lg sm:text-xl lg:text-2xl text-blue-100/80 max-w-3xl mx-auto mb-10 animate-fade-in-up leading-relaxed" style={{ animationDelay: '200ms' }}>
-            Maharashtra&apos;s #1 rated waterproofing experts serving <strong className="text-white font-semibold">Nagpur, Akola &amp; Chandrapur</strong>. 
+            India&apos;s #1 rated waterproofing experts serving <strong className="text-white font-semibold">Nagpur, Akola &amp; Chandrapur</strong>. 
             Specialized in <strong className="text-white font-semibold">SEALROOF CETROOF Treatment</strong> with guaranteed leak-proof protection &amp; warranty.
           </p>
 

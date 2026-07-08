@@ -64,7 +64,7 @@ export default function Services() {
             Professional <span className="gradient-text">Roof Waterproofing</span> in Nagpur
           </h2>
           <p className="section-subtitle">
-            Best roof waterproofing services in Nagpur, Akola &amp; Chandrapur, Maharashtra. 
+            Best roof waterproofing services in Nagpur, Akola &amp; Chandrapur, India. 
             From residential homes to commercial &amp; industrial buildings, we provide guaranteed leak-proof protection with warranty.
           </p>
         </div>
