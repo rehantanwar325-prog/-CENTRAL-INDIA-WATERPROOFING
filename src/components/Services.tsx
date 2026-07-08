@@ -40,10 +40,10 @@ const services = [
     gradient: 'from-teal-500 to-emerald-500',
   },
   {
-    img: '/images/services/membrane_sheet.png',
-    title: 'Membrane Sheet Waterproofing',
-    description: 'Installation of APP/SBS bituminous waterproofing membrane sheets on flat roofs using heat-welding technology. Provides heavy-duty, long-term protection against water ingress.',
-    features: ['Bituminous Membrane', 'Heat Welded', 'Heavy Duty', 'Long-Term Protection'],
+    img: '/images/services/basement.png',
+    title: 'Basement & Foundation Waterproofing',
+    description: 'Professional basement and foundation waterproofing services. Prevents underground water seepage, moisture entry, and dampness in concrete walls and floors.',
+    features: ['Foundation Protection', 'Seepage Prevention', 'Underground Barrier', 'Moisture Control'],
     gradient: 'from-rose-500 to-pink-500',
   },
 ]

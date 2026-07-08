@@ -18,7 +18,7 @@ export default function Footer() {
     'Bathroom & Wet Area Waterproofing',
     'Roller Applied Roof Coating',
     'Wall Seepage & Dampness Treatment',
-    'Membrane Sheet Waterproofing',
+    'Basement & Foundation Waterproofing',
   ]
 
   const locations = [
@@ -52,7 +52,7 @@ export default function Footer() {
             <p className="text-gray-400 mb-6 leading-relaxed text-sm">
               India&apos;s #1 rated waterproofing agency with 25+ years of excellence. 
               Best waterproofing services in Nagpur, Akola &amp; Chandrapur. 
-              Specialized in SEALROOF CETROOF Treatment, terrace waterproofing, spray coating &amp; membrane sheet waterproofing with warranty.
+              Specialized in SEALROOF CETROOF Treatment, terrace waterproofing, bathroom waterproofing &amp; basement waterproofing with warranty.
             </p>
             <div className="space-y-3">
               <a href="tel:+918975138745" className="flex items-center gap-3 text-gray-300 hover:text-emerald-400 transition-colors group">

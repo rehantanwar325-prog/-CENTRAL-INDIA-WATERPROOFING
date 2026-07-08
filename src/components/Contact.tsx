@@ -64,7 +64,7 @@ export default function Contact() {
     'Bathroom & Wet Area Waterproofing',
     'Roller Applied Roof Coating',
     'Wall Seepage & Dampness Treatment',
-    'Membrane Sheet Waterproofing',
+    'Basement & Foundation Waterproofing',
     'Other / General Inquiry',
   ]
 
