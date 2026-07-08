@@ -15,7 +15,7 @@ export default function Footer() {
   const services = [
     'SEALROOF CETROOF Treatment',
     'Roof & Terrace Waterproofing',
-    'Spray Waterproofing Coating',
+    'Bathroom & Wet Area Waterproofing',
     'Roller Applied Roof Coating',
     'Roof Crack Repair Treatment',
     'Membrane Sheet Waterproofing',

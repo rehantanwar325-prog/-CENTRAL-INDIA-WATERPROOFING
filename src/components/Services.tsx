@@ -19,10 +19,10 @@ const services = [
     gradient: 'from-emerald-500 to-green-500',
   },
   {
-    img: '/images/services/spray_coating.png',
-    title: 'Spray Waterproofing Coating',
-    description: 'High-pressure spray-applied waterproofing coating for large roof surfaces. Ensures seamless, uniform coverage with rapid application for industrial and commercial rooftops.',
-    features: ['Seamless Coverage', 'Rapid Application', 'Industrial Grade', 'Long Lasting'],
+    img: '/images/services/bathroom.png',
+    title: 'Bathroom & Wet Area Waterproofing',
+    description: 'Professional waterproofing for bathrooms, toilets, kitchens, and wet areas. Prevents internal water seepage, dampness, and mold growth in walls and floor tiles.',
+    features: ['Seepage Prevention', 'Mold Resistance', 'Seamless Barrier', 'Tile Friendly'],
     gradient: 'from-amber-500 to-orange-500',
   },
   {

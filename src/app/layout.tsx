@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     'roof waterproofing India',
     'best roof waterproofing agency India',
     'waterproofing agency Central India',
-    'spray waterproofing coating',
+    'bathroom waterproofing services',
     'membrane sheet waterproofing',
     'roof crack repair',
     'roller applied roof coating',
@@ -168,7 +168,7 @@ function JsonLd() {
           itemListElement: [
             { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'SEALROOF CETROOF Treatment', description: 'Advanced thermal insulation & waterproofing coating system with warranty.' } },
             { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Roof & Terrace Waterproofing', description: 'Complete waterproofing for flat roofs, sloped roofs, and terraces.' } },
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Spray Waterproofing Coating', description: 'High-pressure spray-applied waterproofing coating for large roof surfaces.' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Bathroom & Wet Area Waterproofing', description: 'Professional waterproofing for bathrooms, toilets, kitchens, and wet areas.' } },
             { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Roller Applied Roof Coating', description: 'Professional roller-applied white waterproofing coating for flat rooftops.' } },
             { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Roof Crack Repair Treatment', description: 'Expert crack filling and sealing on concrete rooftops.' } },
             { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Membrane Sheet Waterproofing', description: 'APP/SBS bituminous waterproofing membrane sheets installation.' } },
@@ -240,7 +240,7 @@ function JsonLd() {
           {
             '@type': 'Question',
             name: 'What waterproofing services do you offer in Nagpur, Akola and Chandrapur?',
-            acceptedAnswer: { '@type': 'Answer', text: 'We offer SEALROOF CETROOF Treatment, Roof & Terrace Waterproofing, Spray Waterproofing Coating, Roller Applied Roof Coating, Roof Crack Repair Treatment, and Membrane Sheet Waterproofing across Nagpur, Akola, and Chandrapur.' },
+            acceptedAnswer: { '@type': 'Answer', text: 'We offer SEALROOF CETROOF Treatment, Roof & Terrace Waterproofing, Bathroom & Wet Area Waterproofing, Roller Applied Roof Coating, Roof Crack Repair Treatment, and Membrane Sheet Waterproofing across Nagpur, Akola, and Chandrapur.' },
           },
           {
             '@type': 'Question',
