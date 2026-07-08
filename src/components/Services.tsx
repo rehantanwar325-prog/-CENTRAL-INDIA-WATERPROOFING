@@ -33,10 +33,10 @@ const services = [
     gradient: 'from-purple-500 to-violet-500',
   },
   {
-    img: '/images/services/crack_repair.png',
-    title: 'Roof Crack Repair Treatment',
-    description: 'Expert crack filling and sealing on concrete rooftops using polymer-modified cement and waterproof sealants. Prevents water seepage through hairline and structural cracks.',
-    features: ['Crack Filling', 'Polymer Modified', 'Seepage Prevention', 'Structural Repair'],
+    img: '/images/services/wall_seepage.png',
+    title: 'Wall Seepage & Dampness Treatment',
+    description: 'Professional treatment for interior and exterior wall seepage, dampness, and paint peeling. Prevents moisture ingress and structural damage in residential and commercial buildings.',
+    features: ['Seepage Control', 'Dampness Treatment', 'Anti-Fungal Barrier', 'Paint Protection'],
     gradient: 'from-teal-500 to-emerald-500',
   },
   {
