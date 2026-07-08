@@ -40,7 +40,7 @@ const services = [
     gradient: 'from-teal-500 to-emerald-500',
   },
   {
-    img: '/images/services/basement.png',
+    img: '/images/services/basement.jpg',
     title: 'Basement & Foundation Waterproofing',
     description: 'Professional basement and foundation waterproofing services. Prevents underground water seepage, moisture entry, and dampness in concrete walls and floors.',
     features: ['Foundation Protection', 'Seepage Prevention', 'Underground Barrier', 'Moisture Control'],
